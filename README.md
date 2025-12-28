@@ -1,16 +1,35 @@
-# React + Vite
+# GTA VI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[**View Live Demo**](https://gta-vi-rs.vercel.app/)
 
-Currently, two official plugins are available:
+A high-performance, animated fan landing page for Grand Theft Auto VI. This project demonstrates modern frontend development techniques, focusing on immersive storytelling through advanced animations and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
 
-## React Compiler
+- **Framework:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite](https://vitejs.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations:** [GSAP](https://gsap.com/) (GreenSock Animation Platform) & ScrollTrigger
+- **Responsiveness:** [React Responsive](https://github.com/yocontra/react-responsive)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **Cinematic Scroll Effects:** Elements animate into view using GSAP ScrollTrigger as you navigate down the page.
+- **Character Showcases:** Dedicated sections highlighting main characters Jason and Lucia.
+- **Video Integration:** Seamlessly embedded video sections for trailers and gameplay.
+- **Modern UI/UX:** A dark, sleek aesthetic fitting the game's theme, fully responsive across devices.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+The application is structured into logical sections found in `src/sections/`:
+
+- `Hero`: Main entry visual.
+- `NavBar`: Navigation and branding.
+- `FirstVideo` / `SecondVideo`: Media showcases.
+- `Jason` / `Lucia`: Character profile sections.
+- `PostCard` / `Final` / `Outro`: Content and footer sections.
+
+## 👤 Author
+
+**VasanthRS**
+- Website: [vasanthrs.in](https://www.vasanthrs.in/)
